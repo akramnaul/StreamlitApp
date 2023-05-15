@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.header("StreamlitPage Header")
+st.header("StreamlitPage Header" + ": My Header")
 st.title("StreamlitPage Title")
 st.write("Hello StreamlitPage !")
 
