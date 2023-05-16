@@ -1,1 +1,4 @@
-print("Hi Python")
+code = '''def hello():
+    print("Hello, Streamlit!")'''
+
+st.code(code, language='python')
