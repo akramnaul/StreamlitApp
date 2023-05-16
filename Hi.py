@@ -13,4 +13,4 @@ first_variable = st.text_input("What's your name ? ")
 if first_variable:
     st.write(hello(first_variable))
 
-subprocess.run([f"{sys.executable} ", "StreamlitPage.py"])
+subprocess.run([f"{sys.executable} ", "pypy.py"])
