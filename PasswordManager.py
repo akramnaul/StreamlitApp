@@ -38,8 +38,7 @@ c.execute("""CREATE TABLE if not exists pwd_mgr (app_name varchar(20) not null,
 
 def insert_data(u):
     with conn:
-        c.execute("insert into pwd_mgr values (:app, :user, :pass, :email, :url)", 
-                  {'app': u.app, 'user': u.username, 'pass': u.password, 'email': u.email, 'url': u.url})
+        c.execute("insert into pwd_mgr values (:app, :user, :pass, :email, :url)", {'app': u.app, 'user': u.username, 'pass': u.password, 'email': u.email, 'url': u.url})
         
 def get_cred_by_app(app):
     with conn:
