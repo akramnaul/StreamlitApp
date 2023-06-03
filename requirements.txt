@@ -10,6 +10,8 @@ streamlit-pandas-profiling
 streamlit-player
 streamlit-quill
 
+user
+
 # Dependencies
 pandas-profiling
 requests
